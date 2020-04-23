@@ -11,7 +11,6 @@ public class TryCatch {
             return  i;
         }finally {
             i++;
-            String a="";
             System.out.println("catch"+i);
         }
     }
